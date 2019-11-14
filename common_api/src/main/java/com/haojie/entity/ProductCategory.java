@@ -21,7 +21,7 @@ public class ProductCategory implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer categoryId;
     private String categoryName;
-    private String categoryType;
+    private Integer categoryType;
     private Date createTime;
     private Date updateTime;
 }
